@@ -43,7 +43,7 @@ function convertCurrency(price, symbol){
   //Exibe cotação da moeda selecionada
   description.textContent = `${symbol} 1 = ${fomratCurrency(price)}`
    
-  let total = amount.value * price
+  let total = input.value * price
 
  if(isNaN(total)){
    return alert("Digite um número valido")
